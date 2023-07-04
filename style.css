@@ -1,0 +1,46 @@
+
+.studentInput{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.input{
+    background: rgb(17,17,17);
+    color: white;
+    border: none;
+    border: 1px solid gray;
+    padding: 10px;
+    width: 450px;
+}
+.button{
+    padding: 30px 5px;
+}
+#btn{
+    width: 40%;
+    padding: 10px;
+}
+.serchContainer{
+    padding: 20px 0px;
+}
+.serchContainer > input{
+  padding: 10px;
+  width: 98%;
+  background: rgb(17,17,17);
+  color: white;
+  border: none;
+  border: 1px solid gray;
+}
+table{
+    border: 1px solid gray;
+    border-collapse:collapse;
+    width: 100%;
+}
+th , td{
+    border: 1px solid gray;
+    text-align: left;
+     padding: 8px;
+}
+
+td > span {
+    cursor: pointer;
+}

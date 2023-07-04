@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: rgb(17, 17, 17);
+            color: aliceblue;
+            margin: 20px;
+        }
+    </style>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>Student Management CRUD</h1>
+
+    <section>
+        <form class="studentInput">
+            <input class="input" type="text" placeholder="Name" id="name" required>
+            <input class="input" type="email" placeholder="Email" id="email" required>
+            <input class="input" type="number" placeholder="GPA" id="gpa" required>
+            <input class="input" type="number" placeholder="Age" id="age" required>
+            <input class="input" type="text" placeholder="Degree" id="degree" required>
+        </form>
+
+        <div class="button">
+            <button id="btn" onclick="pushData()">Add Students</button>
+        </div>
+    </section>
+
+    <section>
+        <div class="serchContainer">
+            <input type="text" placeholder="Search By Name,email or degree" id="search">
+        </div>
+
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Student Name</th>
+                        <th>Email</th>
+                        <th>Age</th>
+                        <th>GPA</th>
+                        <th>Degree</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
